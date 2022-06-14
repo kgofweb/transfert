@@ -2,6 +2,11 @@ body {
   background-color: #297fb93a;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .navbar-brand {
   font-size: .990rem;
   font-weight: 500;
@@ -43,8 +48,9 @@ img {
 }
 
 .dropdown-btn:hover,
+.dropdown-btn:hover a,
 .dropdown-btn:focus {
-  color: #000;
+  color: #000 !important;
   background: none;
   transition: .5s;
 }
@@ -68,8 +74,5 @@ img {
   .services {
     display: flex;
     flex-direction: column;
-    z-index: -100;
   }
-
-  
 }

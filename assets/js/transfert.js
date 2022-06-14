@@ -1,0 +1,1 @@
+const cancel = document.getElementById('cancel')

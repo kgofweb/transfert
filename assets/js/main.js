@@ -10,13 +10,14 @@ const send = document.getElementById('send'),
       help = document.getElementById('help');
 
 
-// Event listener
+// Redirect to tranfert page
 send.addEventListener('click', () => {
-  alert('La plateforme est en cours de maintenance. Les envois sont pour le moment interrompus !')
+  
 })
 
+// Redirect to receive page
 receive.addEventListener('click', () => {
-  alert('La plateforme est en cours de maintenance. Les retraits sont pour le moment interrompus.')
+  
 })
 
 const sr = ScrollReveal({
