@@ -40,42 +40,54 @@
     <section class="mt-3">
       <div class="container">
         <div class="title mb-5 text-center">
-          <h3>Service de transfert d'argent</h3>
-          <p>Transférer de l'argent en toute <span>Sécurité, </span><span>Fiabilité et </span><span>Rapidité.</span></p>
+          <h3 class="text-primary">Service de transfert d'argent</h3>
+          <p class="text-secondary">Transférer de l'argent en toute <span>Sécurité</span>, <span>Fiabilité</span> et <span>Rapidité.</span></p>
         </div>
         <div class="row services mb-4">
           <div class="col">
             <div class="card card-one mb-3">
-              <img src="./assets/img/01.png" style="max-width: 19rem;" class="card-img-top" alt="transfert">
+              <div class="card-header bg-light">
+                <img src="./assets/img/ill-3.webp" style="max-width: 17rem;" class="card-img-top" alt="transfert">
+                <!-- <img src="./assets/img/01.png" style="max-width: 19rem;" class="card-img-top" alt="transfert"> -->
+              </div>
               <div class="card-body">
                 <div class="dropdown">
                   <p class="text-center">Effectuer un Transfert !</p>
-                  <a href="./pages/transfert.html" class="d-block w-100 btn dropdown-btn btn-send rounded-pill" id="send">
+                  <button class="d-block w-100 btn btn-primary" id="send">
                     Envoi
-                  </a>
+                    <i class="uil uil-usd-circle"></i>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card card-two mb-3">
-              <img src="./assets/img/01.png" style="max-width: 19rem;" class="card-img-top" alt="transfert">
+              <div class="card-header bg-light">
+                <img src="./assets/img/ill-8.png" style="max-width: 17.6rem;" class="card-img-top" alt="transfert">
+                <!-- <img src="./assets/img/01.png" style="max-width: 19rem;" class="card-img-top" alt="transfert"> -->
+              </div>
               <div class="card-body">
                 <p class="text-center">Effectuer un retrait !</p>
-                <a href="./pages/receive.html" href="" class="d-block w-100 btn dropdown-btn btn-receive rounded-pill" id="receive">
+                <button class="d-block w-100 btn btn-danger" id="receive">
                   Reception
-                </a>
+                  <i class="uil uil-bill"></i>
+                </button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card card-three mb-3">
-              <img src="./assets/img/01.png" style="max-width: 19rem;" class="card-img-top" alt="transfert">
+              <div class="card-header bg-light">
+                <img src="./assets/img/ill-9.webp" style="max-width: 17rem;" class="card-img-top" alt="transfert">
+                <!-- <img src="./assets/img/01.png" style="max-width: 19rem;" class="card-img-top" alt="transfert"> -->
+              </div>
               <div class="card-body">
                 <p class="text-center">En savoir plus !</p>
-                <a href="./pages/receive.html" class="d-block w-100 btn dropdown-btn btn-help rounded-pill" id="help">
+                <button class="d-block w-100 btn btn-warning" id="help">
                   Aide
-                </a>
+                  <i class="uil uil-question-circle"></i>
+                </button>
               </div>
             </div>
           </div>

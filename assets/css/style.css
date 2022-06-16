@@ -7,6 +7,11 @@ a {
   color: #fff;
 }
 
+i {
+  font-size: 1.1rem;
+  margin-left: .5rem;
+}
+
 .navbar-brand {
   font-size: .990rem;
   font-weight: 500;
@@ -22,9 +27,6 @@ a {
   font-weight: 500;
 }
 
-.title > h3 {
-  color: #424242;
-}
 .title > p {
   font-size: 1.1rem;
   color: grey;
@@ -33,7 +35,17 @@ a {
 .title > p > span {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #2980b9;
+  color: #188f49;
+}
+
+span:nth-child(1) {
+  text-decoration: underline;
+}
+span:nth-child(2) {
+  text-decoration: underline;
+}
+span:nth-child(3) {
+  text-decoration: underline;
 }
 
 img {
@@ -42,32 +54,14 @@ img {
   margin-right: auto;
 }
 
-.dropdown-btn {
-  color: #fff;
-  box-shadow: none !important;
+.card-one {
+  border-top: 6px solid #2980b9;
 }
-
-.dropdown-btn:hover,
-.dropdown-btn:hover a,
-.dropdown-btn:focus {
-  color: #000 !important;
-  background: none;
-  transition: .5s;
+.card-two {
+  border-top: 6px solid #dc3545;
 }
-
-.btn-send {
-  background-color: #2980b9;
-  border: 3px solid #74b9ff;
-}
-
-.btn-receive {
-  background-color: #e74c3c;
-  border: 3px solid #fab1a0;
-}
-
-.btn-help {
-  background-color: #f1c40f;
-  border: 3px solid #ffeaa7;
+.card-three {
+  border-top: 6px solid #ffc107;
 }
 
 @media screen and (max-width: 990px) {
